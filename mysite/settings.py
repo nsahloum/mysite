@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'u-n&v6cxi#_*x&e6c(o8o2(_mus0hlrwn#@(h2rx(rb*cc7j0b'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+#DEBUG = False
 
-ALLOWED_HOSTS = ["git.heroku.com/damp-bastion-39649.git"]
+ALLOWED_HOSTS = [""]
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
 
